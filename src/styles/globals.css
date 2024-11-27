@@ -5,6 +5,12 @@ body {
   color: #333;
   font-family: "Nunito";
 }
+
+.body {
+  background: url('/body.jpg') no-repeat center center fixed;
+  background-size: cover; /* Ensures the image covers the full screen */
+  height: 100vh; /* Makes the background cover the whole viewport height */
+}
 a {
   color: #333;
   text-decoration: none;
@@ -41,4 +47,19 @@ footer {
 .not-found a{
   color: #4979ff;
   text-decoration: underline;
+}
+.social-media-icons a {
+  margin: 0 10px;
+  font-size: 24px; /* Adjust size as needed */
+  color: #333; /* Change color */
+  text-decoration: none;
+}
+
+.social-media-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
+.copyright {
+  font-size: 14px;
+  font-weight: 900;
+  /* margin-top: 20px; */
 }

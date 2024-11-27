@@ -10,11 +10,13 @@ const Navbar = () => {
       <meta name="keywords" content="ninjas" />
     </Head>
         <div className="logo">
-            <Image src="/logo.png" width={128} height={77}/>
+            <Image src="/water.jpg" alt="//" width={128} height={80}/>
+            {/* <Image src="/drop.jpg" alt="//" width={140} height={80}/> */}
+
         </div>
         <Link href="/">Home</Link>
         <Link href="/about">About</Link>
-        <Link href="/ninjas">Ninja Listing</Link>
+        <Link href="/ninjas">Services</Link>
 
         </nav>
         
